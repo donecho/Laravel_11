@@ -37,3 +37,22 @@ php artisan route:clear
 php artisan view:clear
 
 sudo chmod -R 777 project / public /storage / logs
+
+php artisan -for all command line
+
+==============================================================
+Route 
+
+View 
+- php artisan make:view name / home.blade.php (for create file in view)
+-php artisan make:view folder/filename
+
+
+//Note - web is server site / blade is client side
+
+->with()
+,compact(sameName Variable)
+php artisan make:view
+{{ asset('') }}     =>> connect to public under
+route('') - name->route
+url('') - route 

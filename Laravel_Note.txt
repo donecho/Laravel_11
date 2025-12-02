@@ -1,0 +1,39 @@
+Laravel Project Create 
+========================
+
+composer create-project laravel/laravel projectName (lastest version)
+
+composer create-project laravel/laravel projectName"10.*"
+
+Laravel Design Pattern (MVC)
+
+MVC (Model View Controller)
+HMVC 
+MVA
+MVP
+MVVM
+------------------------------------------------------
+
+Composer Command 
+=================
+composer --version (check composer version)
+composer install //create vendor folder according to composer.json dependecies
+composer update (update vendor folder version to lastest version)
+
+Key Generate
+=============
+php artisan key:generate 
+
+Cache
+========
+Broswer Cache 
+
+Project Cache 
+
+php artisan cache:clear
+php artisan config:clear 
+php artisan config:cache x3 
+php artisan route:clear 
+php artisan view:clear
+
+sudo chmod -R 777 project / public /storage / logs
